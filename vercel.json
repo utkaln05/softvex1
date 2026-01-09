@@ -1,0 +1,23 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "GOOGLE_SERVICE_ACCOUNT_EMAIL": "@GOOGLE_SERVICE_ACCOUNT_EMAIL",
+    "GOOGLE_PRIVATE_KEY": "@GOOGLE_PRIVATE_KEY",
+    "GOOGLE_SHEET_ID": "@GOOGLE_SHEET_ID",
+    "EMAIL_HOST": "@EMAIL_HOST",
+    "EMAIL_PORT": "@EMAIL_PORT",
+    "EMAIL_SECURE": "@EMAIL_SECURE",
+    "EMAIL_USER": "@EMAIL_USER",
+    "EMAIL_PASS": "@EMAIL_PASS",
+    "EMAIL_TO": "@EMAIL_TO"
+  },
+  "functions": {
+    "src/lib/actions.ts": {
+      "maxDuration": 60
+    }
+  }
+}

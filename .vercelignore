@@ -1,0 +1,8 @@
+.git
+.gitignore
+.eslintrc.json
+README.md
+node_modules
+.env.local
+.env.*.local
+.next/cache
